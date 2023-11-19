@@ -1,0 +1,35 @@
+#con1 {
+display: grid;
+gap: 10px;
+grid-template-areas: 
+'con2 con2 con2 con2'
+'con3 con3 con4 con4'
+'con5 con5 con5 con5'
+;
+}
+#con2 {
+    background-color: aquamarine;
+    grid-area: con2;
+}
+#con3 {
+    background-color: aquamarine;
+    grid-area: con3;
+}
+#con4 {
+    background-color: aquamarine;
+    grid-area: con4;
+}
+#con5 {
+    background-color: aquamarine;
+    grid-area: con5;
+}
+.headingTitle {
+    color: red;
+    font: 60px Copperplate, Papyrus, fantasy;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.title{
+    color: red;
+    font: 30px Copperplate, Papyrus, fantasy;
+}
